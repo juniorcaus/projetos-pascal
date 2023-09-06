@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\Lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1457173459"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq &quot;-FiC:\DELPHI\Projetos - milton\Projeto Dashboard\lib\x86_64-win64&quot; -FuD:\Lazarus\lcl\units\x86_64-win64\win32 -FuD:\Lazarus\lcl\units\x86_64-win64 -FuD:\Lazarus\components\freetype\lib\x86_64-win64 -FuD:\Lazarus\components\lazutils\lib\x86_64-win64 -FuD:\Lazarus\packager\units\x86_64-win64 &quot;-FuC:\DELPHI\Projetos - milton\Projeto Dashboard\&quot; &quot;-FUC:\DELPHI\Projetos - milton\Projeto Dashboard\lib\x86_64-win64\&quot; &quot;-FEC:\DELPHI\Projetos - milton\Projeto Dashboard\&quot; &quot;-oC:\DELPHI\Projetos - milton\Projeto Dashboard\projectdashboard.exe&quot; -dLCL -dLCLwin32 projectdashboard.lpr"/>
+</CONFIG>

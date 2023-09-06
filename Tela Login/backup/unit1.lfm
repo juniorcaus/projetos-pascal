@@ -1,0 +1,61 @@
+object Form1: TForm1
+  Left = 309
+  Height = 240
+  Top = 145
+  Width = 391
+  Caption = 'Tela de Login'
+  ClientHeight = 240
+  ClientWidth = 391
+  Position = poDesktopCenter
+  LCLVersion = '3.0.0.1'
+  object Edit1: TEdit
+    Left = 88
+    Height = 23
+    Top = 64
+    Width = 208
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 88
+    Height = 23
+    Top = 96
+    Width = 208
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 64
+    Width = 40
+    Caption = 'Usuario'
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 96
+    Width = 32
+    Caption = 'Senha'
+  end
+  object Button3: TButton
+    Cursor = crHandPoint
+    Left = 96
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Login'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Cursor = crHandPoint
+    Left = 192
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Resete'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+end

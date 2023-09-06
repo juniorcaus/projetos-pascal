@@ -1,0 +1,36 @@
+object Form2: TForm2
+  Left = 407
+  Height = 541
+  Top = 201
+  Width = 738
+  Caption = 'Cadastro de Cliente'
+  ClientHeight = 541
+  ClientWidth = 738
+  Position = poDesktopCenter
+  LCLVersion = '3.0.0.1'
+  object Label1: TLabel
+    Left = 136
+    Height = 65
+    Top = 88
+    Width = 393
+    Caption = 'SEJA BEM VINDO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -48
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 152
+    Height = 40
+    Top = 184
+    Width = 329
+    Caption = 'PAINEL ADMINISTRATIVO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -29
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+end

@@ -1,0 +1,284 @@
+object Form1: TForm1
+  Left = 500
+  Height = 453
+  Top = 188
+  Width = 650
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 453
+  ClientWidth = 650
+  Color = 3090983
+  Position = poDesktopCenter
+  LCLVersion = '3.0.0.1'
+  object Shape1: TShape
+    Left = 16
+    Height = 89
+    Top = 96
+    Width = 137
+    Brush.Color = 14328610
+  end
+  object Shape2: TShape
+    Left = 176
+    Height = 89
+    Top = 96
+    Width = 137
+    Brush.Color = 473858
+  end
+  object Shape3: TShape
+    Left = 336
+    Height = 89
+    Top = 96
+    Width = 137
+    Brush.Color = 4503032
+  end
+  object Shape4: TShape
+    Left = 496
+    Height = 89
+    Top = 96
+    Width = 137
+    Brush.Color = 2248656
+  end
+  object Label1: TLabel
+    Left = 224
+    Height = 27
+    Top = 16
+    Width = 178
+    Caption = 'Projeto Dashboard'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -21
+    Font.Name = 'Tempus Sans ITC'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 21
+    Height = 16
+    Top = 104
+    Width = 26
+    Caption = 'Ano'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblano: TLabel
+    Left = 21
+    Height = 16
+    Top = 120
+    Width = 32
+    Caption = '2025'
+    Color = clWhite
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 21
+    Height = 16
+    Top = 144
+    Width = 68
+    Caption = 'Data atual'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbldataatual: TLabel
+    Left = 21
+    Height = 16
+    Top = 160
+    Width = 80
+    Caption = '25/15/2023'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 178
+    Height = 16
+    Top = 104
+    Width = 70
+    Caption = 'Dia do Mês'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbldiames: TLabel
+    Left = 181
+    Height = 16
+    Top = 120
+    Width = 8
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 178
+    Height = 16
+    Top = 144
+    Width = 74
+    Caption = 'Mês do ano'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblmesano: TLabel
+    Left = 181
+    Height = 16
+    Top = 160
+    Width = 63
+    Caption = 'Setembro'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 344
+    Height = 16
+    Top = 104
+    Width = 51
+    Caption = 'Semana'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblsemana: TLabel
+    Left = 347
+    Height = 16
+    Top = 120
+    Width = 8
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lbldiasemana: TLabel
+    Left = 347
+    Height = 16
+    Top = 160
+    Width = 45
+    Caption = 'Quarta'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 344
+    Height = 16
+    Top = 144
+    Width = 95
+    Caption = 'Dia da Semana'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 504
+    Height = 16
+    Top = 104
+    Width = 68
+    Caption = 'Hora atual'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblhoraatual: TLabel
+    Left = 507
+    Height = 16
+    Top = 120
+    Width = 8
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 560
+    Height = 25
+    Top = 0
+    Width = 39
+    Caption = '-'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 608
+    Height = 25
+    Top = 0
+    Width = 39
+    Caption = 'X'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 584
+    Top = 210
+  end
+end
