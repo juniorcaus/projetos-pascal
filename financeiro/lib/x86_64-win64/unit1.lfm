@@ -1,0 +1,28 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 421
+  Height = 566
+  Top = 193
+  Width = 875
+  Caption = 'Monolito Financeiro'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '3.0.0.1'
+  WindowState = wsMaximized
+  object MainMenu1: TMainMenu
+    Left = 760
+    Top = 32
+    object mnuCadastros: TMenuItem
+      Caption = 'Cadastros'
+      object mnuCadastroPadrao: TMenuItem
+        Caption = 'Cadastro Padrao'
+        OnClick = mnuCadastroPadraoClick
+      end
+    end
+    object mnuRelatorios: TMenuItem
+      Caption = 'Relatorios'
+    end
+    object mnuAjuda: TMenuItem
+      Caption = 'Ajuda'
+    end
+  end
+end

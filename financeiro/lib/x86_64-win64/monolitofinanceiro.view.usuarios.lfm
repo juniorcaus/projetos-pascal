@@ -1,0 +1,22 @@
+inherited frmUsuarios: TfrmUsuarios
+  Caption = 'Cadastros Usuarios'
+  inherited pnlPrincipal: TNotebook
+    inherited cardPesquisa: TPage
+      inherited pnlGrid: TPanel
+        inherited DBGrid1: TDBGrid
+          DataSource = DataSource1
+        end
+      end
+      inherited pnlPesquisa: TPanel
+        inherited btnPesquisar: TButton
+          OnClick = btnPesquisarClick
+        end
+      end
+    end
+  end
+  object DataSource1: TDataSource[1]
+    DataSet = dmConexao.ZQuery1
+    Left = 797
+    Top = 448
+  end
+end

@@ -1,0 +1,59 @@
+CREATE TABLE usuarios (
+id character(36) NOT NULL CONSTRAINT usuarios_pk PRIMARY KEY,
+nome varchar(50) NOT NULL,
+login varchar(20) NOT NULL,
+senha varchar(20) NOT NULL,
+status character(1) NOT NULL,
+data_cadastro date NOT NULL,
+);
+
+CREATE TABLE caixa(
+  id character(36) NOT NULL CONSTRAINT caixa_pk PRIMARY KEY,
+  numero_doc VARCHAR(20) NOT NULL,
+  descricao VARCHAR(200),
+  valor DECIMAL(18,2) NOT NULL,
+  tipo CHAR(1),
+  data_cadastro DATE NOTNULL
+);
+
+CREATE TABLE contas_receber (
+  id CHARACTER(36) NOT NULL CONSTRAINT contas_receber_pk PRIMARY KEY,
+  numero_documento VARCHAR(20) NOT NULL,
+  descricao VARCHAR(200),
+  parcela integer NOT NULL,
+  valor_parcela decimal(18,2) NOT NULL,
+  valor_venda decimal(18,2) NOT NULL,
+  valor_abatido decimal(18,2) NOT NULL,
+  data_compra date NOT NULL,
+  data_cadastro date NOT NULL, 
+  data_vencimento date NOT NULL,
+  data_recebimento date,
+  status character(1) NOT NULL
+);
+
+CREATE TABLE constas_pagar_detalhes (
+  id CHARACTER(36) NOT NULL CONSTRAINT contas_pagar_detalhes_pk PRIMARY KEY,
+  id_conta_pagar character(36) NOT NULL,
+  detalhes VARCHAR(200) NOT NULL,
+  valor decimal(18,2) NOT NULL,
+  data date NOT NULL,
+  usuario varchar(50) NOT NULL
+);
+
+CREATE TABLE constas_receber_detalhes (
+  id CHARACTER(36) NOT NULL CONSTRAINT contas_receber_detalhes_pk PRIMARY KEY,
+  id_conta_pagar character(36) NOT NULL,
+  detalhes VARCHAR(200) NOT NULL,
+  valor decimal(18,2) NOT NULL,
+  data date NOT NULL,
+  usuario varchar(50) NOT NULL
+);
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=SoMndIHlmYI&list=PLvrBgLo9icwPsFiu8Zvt3NC7PJb5opJfi&index=4&ab_channel=AcademiadoC%C3%B3digo

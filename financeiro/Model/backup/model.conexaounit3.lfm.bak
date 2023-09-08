@@ -1,0 +1,33 @@
+object dmConexao: TdmConexao
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 372
+  HorizontalOffset = 619
+  VerticalOffset = 206
+  Width = 545
+  object SQLConexao: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=True'
+      'controls_cp=CP_UTF8'
+    )
+    Connected = True
+    Port = 0
+    Database = 'C:\DELPHI\Projetos - Pascal\financeiro\db\SistemaFinanceiroDB'
+    Protocol = 'sqlite-3'
+    LibraryLocation = 'D:\SQLLiteStudio\sqlite3.dll'
+    Left = 390
+    Top = 57
+  end
+  object ZQuery1: TZQuery
+    Connection = SQLConexao
+    Active = True
+    SQL.Strings = (
+      'Select * From usuarios'
+    )
+    Params = <>
+    Left = 405
+    Top = 157
+  end
+end
